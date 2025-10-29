@@ -75,7 +75,7 @@ def save_dataset_parquet(df: pd.DataFrame) -> None:
     Без отката в CSV. В случае сбоя — исключение.
     """
     ensure_pyarrow()
-    filename_parquet = "employee_attrition_processed.parquet"
+    filename_parquet = "data_processed.parquet"
     # Явно указываем движок 'pyarrow'
     df.to_parquet(filename_parquet, index=False, engine="pyarrow")
     print(f"✓ Датасет сохранен как: {filename_parquet}")
