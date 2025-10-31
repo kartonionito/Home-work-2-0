@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 from sqlalchemy import create_engine, text
 
-conn = sqlite3.connect("C:/Users/user/PycharmProjects/Home-work-2-0/creds.db")
+conn = sqlite3.connect("/creds.db")
 cur = conn.cursor()
 
 # список всех таблиц
@@ -38,7 +38,7 @@ print('Подключение к PostgreSQL создано успешно')
 # загрузка датасета
 
 print('\nЗагрузка датасета data_processed.parquet')
-df = pd.read_parquet('C:/Users/user/PycharmProjects/Home-work-2-0/data_processed.parquet')
+df = pd.read_parquet('/data_processed.parquet')
 print(f'Датасет успешно загружен. Всего строк: {len(df)}, столбцов: {len(df.columns)}')
 
 print('\nПервые 100 строк для загрузки')
