@@ -110,7 +110,7 @@ python -m etl.main --creds-db creds.db --table gavriliev
 (https://drive.google.com/file/d/1HL4RvKognD_6_3-cL4UMC2poBAUIurXH/view?usp=drive_link)
 
 #### EDA-наблюдение (nbviewer):
-(https://nbviewer.org/github/kartonionito/Home-work-2-0/blob/main/notebooks/EDA.ipynb)
+https://nbviewer.org/github/kartonionito/Super_project/blob/main/Notebooks/EDA.ipynb
 
 # ⚙️ Детали реализации
 Все зависимости указаны в requirements.txt
